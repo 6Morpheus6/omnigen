@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://huggingface.co/spaces/cocktailpeanut/OmniGen app",
+          "git clone https://github.com/VectorSpaceLab/OmniGen app",
         ]
       }
     },
@@ -28,7 +28,7 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "pip install gradio==5.1.0 devicetorch",
+          //"pip install gradio==5.1.0 devicetorch",
           "pip install -r requirements.txt"
         ]
       }

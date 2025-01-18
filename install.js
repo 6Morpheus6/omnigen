@@ -18,8 +18,8 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
           //"pip install gradio==5.1.0 devicetorch",
-          "pip install gradio spaces",
-          "pip install -r requirements.txt"
+          "uv pip install gradio spaces",
+          "uv pip install -r requirements.txt"
         ]
       }
     },

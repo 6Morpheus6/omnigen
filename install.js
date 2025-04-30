@@ -34,12 +34,6 @@ module.exports = {
           xformers: true   // uncomment this line if your project requires xformers
         }
       }
-    },
-    {
-      method: "fs.link",
-      params: {
-        venv: "app/env"
-      }
     }
   ]
 }

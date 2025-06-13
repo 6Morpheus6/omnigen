@@ -50,7 +50,7 @@ module.exports = {
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
-        "message": "uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0"
+        "message": "uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 numpy==1.26.4"
       }
     },
     // intel mac
@@ -60,7 +60,7 @@ module.exports = {
       "params": {
         "venv": "{{args && args.venv ? args.venv : null}}",
         "path": "{{args && args.path ? args.path : '.'}}",
-        "message": "uv pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2"
+        "message": "uv pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 numpy==1.26.4"
       }
     },
     // linux nvidia
